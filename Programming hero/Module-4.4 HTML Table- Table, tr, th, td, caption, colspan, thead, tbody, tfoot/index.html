@@ -3,74 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="blogs.css"> -->
-
+    <title>Table</title>
     <style>
-        form .basic-info label{
-            display: block;
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
-    <header>
-        
-    </header>
     <main>
-        <section>
-            <h2>Jamal MOther Pitha Ghar</h2>
-            <form>
-                <fieldset class="basic-info">
-                    <legend>Basics Info</legend>
-                    <label for = "name">Your name</label>
-                    <input type="text" name="" id="name">
+        <h2>Friends</h2>
+        <table>
+            <caption>Friends List</caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mary</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mike</td>
+                    <td>mike@example.com</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Friends: 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
 
-                    <label for = "email">Your email</label>
-                    <input type="email" name="" id="email">
-                </fieldset>
-                
-                <fieldset>
-                    <legend>Pitha Info</legend>
+    <section>
+        <h2>Table Info</h2>
+        <ul>
+            <li>Table: table</li>
+            <li>Table Head: thead</li>
+            <li>Table Body: tbody</li>
+            <li>Table Foot: tfoot</li>
+            <li>Table Row: tr</li>
+            <li>Table data: td</li>
+        </ul>
 
-                    <input type="radio" name="pithaType" id="chitoy">
-                    <label for="Chitoy">Chitoy</label>
 
-                    <input type="radio" name="pithaType" id="Vapa">
-                    <label for="Vapa">Vapa</label>
+    </section>
 
-                    <input type="radio" name="pithaType" id="dal">
-                    <label for="dal">dal</label>
-
-                    <input type="radio" name="pithaType" id="cake">
-                    <label for="cake">cake</label>
-                    
-                </fieldset>
-                <fieldset>
-                    <legend>Vorta</legend>
-
-                    <input type = "checkbox" name="vorta" id = "sorisa">
-                    <label for="sorisa">Sorisa Vorta</label>
-
-                    <input type = "checkbox" name="" id = "alu">
-                    <label for="alu">Alu Vorta</label>
-
-                    <input type = "checkbox" name="vorta" id = "begun">
-                    <label for="begun">Begun Vorta</label>
-                    
-                </fieldset>
-                <fieldset>
-                    <legend>Extra Info</legend>
-                    <textarea cols = "50" rows="4" name="" id=""></textarea>
-
-                </fieldset>
-
-                <input type="submit" value="Submit">
-                <input type="reset" value="Clear">
-
-            </form>
-        </section>
-    <footer>
-
-    </footer>
 </body>
 </html>
