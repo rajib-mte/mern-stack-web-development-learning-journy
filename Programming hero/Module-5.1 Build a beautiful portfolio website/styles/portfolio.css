@@ -58,7 +58,7 @@ header {
   background-color: #fff8f3;
   background: url(../images/developer.png), url(../images/header_bg.png),
     #fff8f3;
-  background-position: top left, bottom right;
+  background-position: 23px 38px, bottom right;
   background-repeat: no-repeat;
   padding-top: 50px;
 }
@@ -267,7 +267,7 @@ footer .footer-container .social .icons a {
 }
 
 .footer-container form input[type="text"],
-textarea {
+.footer-container form textarea {
   width: 461px;
   padding: 18px 30px;
   margin-bottom: 24px;
