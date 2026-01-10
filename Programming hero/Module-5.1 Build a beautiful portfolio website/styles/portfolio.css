@@ -244,6 +244,34 @@ footer .footer-container {
   gap: 116px;
 }
 
+footer .footer-container h2 {
+  color: #181818;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
 footer .footer-container .social {
-  background-color: #fd6e0a;
+  /* background-color: #fd6e0a; */
+  max-width: 510px;
+}
+
+footer .footer-container .social p {
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+footer .footer-container .social .icons a {
+  margin: 24px;
+}
+
+.footer-container form input[type="text"],
+textarea {
+  width: 461px;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
 }
