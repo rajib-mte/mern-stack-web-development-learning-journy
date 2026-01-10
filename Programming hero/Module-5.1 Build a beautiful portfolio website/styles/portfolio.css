@@ -63,11 +63,13 @@ header {
   padding-top: 50px;
 }
 
-nav {
+.container2 {
   width: 71%;
   max-width: 1140px;
-  /* border: 1px solid red; */
   margin: 0px auto;
+}
+
+nav {
   justify-content: space-between;
   display: flex;
 }
