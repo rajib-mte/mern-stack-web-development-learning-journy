@@ -11,8 +11,21 @@ _ align-items
 _ justify-content
 _ place-items \* place-content
 
-ii.Children Properties:
+##LINK - Children Properties:
 _ grid-column: start/end
 _ grid-row: start/end
 _ justify-self
 _ align-self \* place-self
+
+### Note - Frontend
+
+/// NOTE
+
+- HTML5, CSS3
+- JavaScript (ES6+)
+- React.js
+- React Router
+- Hooks & State Management
+- Responsive Web Design
+
+## Heading
