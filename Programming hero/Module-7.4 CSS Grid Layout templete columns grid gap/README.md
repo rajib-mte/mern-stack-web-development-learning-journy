@@ -12,7 +12,7 @@
 
 These properties are applied to the **grid container**.
 
-### 🔹 Layout Definition
+### Layout Definition
 
 - `grid-template-columns`
 - `grid-template-rows`
