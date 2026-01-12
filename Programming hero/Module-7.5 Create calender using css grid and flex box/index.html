@@ -1,71 +1,77 @@
-<!-- notes9:30-Grid properties are divided into:
-i.Parent properties
-_ Grid-template-columns
-_ grid-template-rows
-_ grid-template
-_ column-gap
-_ row-gap
-_ grid-gap
-_ justify-items
-_ align-items
-_ justify-content
-_ place-items \* place-content
-
-ii.Children Properties:
-_ grid-column: start/end
-_ grid-row: start/end
-_ justify-self
-_ align-self \* place-self -->
-
-/// ANCHOR - this comment /// NOTE - ## this heading Snippets as Smart Notes
-this Snippets as Smart Notes
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grid Layout</title>
+    <title>Calender</title>
     <style>
-      .container {
+      .calender {
         display: grid;
-        /* grid-template-columns: 200px 200px 200px 200px 200px; */
-        /* grid-template-columns: repeat(2, 100px); */
-        /* grid-template-columns: repeat(2, 100px) 200px 50px; */
-        /* grid-template-columns: repeat(6, 1fr) 2fr; */
-        /* grid-template-columns: 100px 200px auto 200px; */
-        grid-template-columns: 100px 100px 100px 100px;
-        justify-content: space-between;
+        grid-template-columns: repeat(7, 1fr);
+        row-gap: 20px;
+        column-gap: 10px;
       }
-      .item {
-        border: 1px solid aquamarine;
+      .date,
+      .day {
+        background-color: skyblue;
+        border-radius: 5px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+      }
+      .day {
+        background-color: lightgray;
+        font-size: 1em;
       }
     </style>
   </head>
-  <body>
-    <h2>Explore Grid Layout: 2D Layout</h2>
 
-    <div class="container">
-      <div class="item">item - 1</div>
-      <div class="item">item - 2</div>
-      <div class="item">item - 3</div>
-      <div class="item">item - 4</div>
-      <div class="item">item - 5</div>
-      <div class="item">item - 6</div>
-      <div class="item">item - 7</div>
-      <div class="item">item - 8</div>
-      <div class="item">item - 9</div>
-      <div class="item">item - 10</div>
-      <div class="item">item - 11</div>
-      <div class="item">item - 12</div>
-      <div class="item">item - 13</div>
-      <div class="item">item - 14</div>
-      <div class="item">item - 15</div>
-      <div class="item">item - 16</div>
-      <div class="item">item - 17</div>
-      <div class="item">item - 18</div>
-      <div class="item">item - 19</div>
-      <div class="item">item - 20</div>
+  <body>
+    <div class="calender">
+      <div class="day">S</div>
+      <div class="day">M</div>
+      <div class="day">T</div>
+      <div class="day">W</div>
+      <div class="day">T</div>
+      <div class="day">F</div>
+      <div class="day">S</div>
+      <div class="date">29</div>
+      <div class="date">30</div>
+      <div class="date">31</div>
+      <div class="date">1</div>
+      <div class="date">2</div>
+      <div class="date">3</div>
+      <div class="date">4</div>
+      <div class="date">5</div>
+      <div class="date">6</div>
+      <div class="date">7</div>
+      <div class="date">8</div>
+      <div class="date">9</div>
+      <div class="date">10</div>
+      <div class="date">11</div>
+      <div class="date">12</div>
+      <div class="date">13</div>
+      <div class="date">14</div>
+      <div class="date">15</div>
+      <div class="date">16</div>
+      <div class="date">17</div>
+      <div class="date">18</div>
+      <div class="date">19</div>
+      <div class="date">20</div>
+      <div class="date">21</div>
+      <div class="date">22</div>
+      <div class="date">23</div>
+      <div class="date">24</div>
+      <div class="date">25</div>
+      <div class="date">26</div>
+      <div class="date">27</div>
+      <div class="date">28</div>
+      <div class="date">29</div>
+      <div class="date">30</div>
+      <div class="date">1</div>
+      <div class="date">2</div>
     </div>
   </body>
 </html>
