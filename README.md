@@ -10,6 +10,7 @@ I learned through **YouTube tutorials, online resources**, and hands-on practice
 ## 🧠 Technologies & Skills Learned
 
 ### Frontend
+
 - HTML5, CSS3
 - JavaScript (ES6+)
 - React.js
@@ -18,6 +19,7 @@ I learned through **YouTube tutorials, online resources**, and hands-on practice
 - Responsive Web Design
 
 ### Backend
+
 - Node.js
 - Express.js
 - RESTful API Development
@@ -25,12 +27,14 @@ I learned through **YouTube tutorials, online resources**, and hands-on practice
 - Basic Authentication & Authorization
 
 ### Database
+
 - MongoDB
 - Mongoose
 - CRUD Operations
 - Database Schema Design
 
 ### Tools & Others
+
 - Git & GitHub
 - VS Code
 - Postman
@@ -40,16 +44,17 @@ I learned through **YouTube tutorials, online resources**, and hands-on practice
 ---
 
 ## 📂 Repository Structure
+
 frontend/ → React UI & frontend practice
 backend/ → Node.js & Express backend APIs
 database/ → MongoDB practice & models
 projects/ → Full-stack mini & practice projects
 notes/ → Key concepts & learning notes
 
-
 ---
 
 ## 🎯 Purpose of This Repository
+
 - Track my MERN stack learning progress
 - Practice real-world full-stack development
 - Build a strong foundation for professional web development
@@ -58,13 +63,17 @@ notes/ → Key concepts & learning notes
 ---
 
 ## 🎓 Learning Sources
+
 - YouTube
 - Online articles & official documentation
 - **Programming Hero – Complete Web Development Course**
 
 ---
 
+https://www.facebook.com/photo/?fbid=122261033762177972&set=gm.751732600844750&idorvanity=725402360144441
+
 ## 📌 Author
+
 **Rajib Hasan**  
 Full-Stack Web Development Learner (MERN)
 
