@@ -3,87 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Gallery</title>
+    <title>Grid Layout</title>
     <style>
       .container {
         display: grid;
-        gap: 3px;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(6, 150px);
+        gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 200px) 50px 50px;
       }
-      img {
-        width: 100%;
-        height: 100%;
+      .box {
+        background-color: bisque;
+        padding: 10px;
       }
-      .big-layout {
-        grid-column: span 6;
-        grid-row: span 2;
+      #sidebar {
+        grid-row: span 5;
       }
-      .normal-layout {
-        grid-column: span 2;
-        grid-row: span 2;
-      }
-      .wide-layout {
-        grid-column: span 2;
-        grid-row: span 1;
-      }
-      .small-layout {
-        grid-column: span 1;
-        grid-row: span 1;
+      .footer {
+        grid-column: span 3;
       }
       @media screen and (max-width: 576px) {
-        /* .container {
-          display: block;
-        } */
         .container {
           display: grid;
           gap: 3px;
           grid-template-columns: repeat(2, 1fr);
-        }
-        .normal-layout,
-        .big-layout,
-        .wide-layout,
-        .small-layout {
-          grid-row: span 1;
         }
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="big-layout">
-        <img src="img/a.jpg" alt="" />
-      </div>
-      <div class="normal-layout">
-        <img src="img/b.png" alt="" />
-      </div>
-      <div class="normal-layout">
-        <img src="img/c.jpg" alt="" />
-      </div>
-      <div class="wide-layout">
-        <img src="img/d.jpg" alt="" />
-      </div>
-      <div class="wide-layout">
-        <img src="img/e.png" alt="" />
-      </div>
-      <div class="normal-layout">
-        <img src="img/f.png" alt="" />
-      </div>
-      <div class="small-layout">
-        <img src="img/h.jpg" alt="" />
-      </div>
-      <div class="small-layout">
-        <img src="img/h.jpg" alt="" />
-      </div>
-      <div class="small-layout">
-        <img src="img/h.jpg" alt="" />
-      </div>
-      <div class="small-layout">
-        <img src="img/h.jpg" alt="" />
-      </div>
-      <div class="normal-layout">
-        <img src="img/i.jpg" alt="" />
-      </div>
+      <div id="sidebar" class="box">box1</div>
+      <div class="box">box2</div>
+      <div class="box">box3</div>
+      <div class="box">box4</div>
+      <div class="box">box5</div>
+      <div class="box">box6</div>
+      <div class="box">box7</div>
+      <div class="box">box8</div>
+      <div class="box">box9</div>
+      <div class="box">box10</div>
+      <div class="box footer">box11</div>
+      <div class="box footer">box12</div>
     </div>
   </body>
 </html>
