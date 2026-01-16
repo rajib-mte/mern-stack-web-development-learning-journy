@@ -30,10 +30,32 @@ footer {
 
 .container {
   display: grid;
-  gap: 20px;
+  gap: 30px;
   grid-template-areas:
     "header header header header"
     "navbar main main sidebar"
     "navbar main main advertise"
     "footer footer footer footer";
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "navbar"
+      "main"
+      "sidebar"
+      "advertise"
+      "footer";
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .container {
+    grid-template-areas:
+      "header header header"
+      "navbar navbar navbar"
+      "sidebar main main"
+      "advertise footer footer ";
+  }
 }
