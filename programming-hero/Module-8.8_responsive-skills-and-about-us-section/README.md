@@ -1,8 +1,5 @@
 ## New things learn
 
-- `!important`
-  .hide {
-  display: none !important;
-  }
+- selector(copy selector) in inspect
 
 ### Shortcut uses:
