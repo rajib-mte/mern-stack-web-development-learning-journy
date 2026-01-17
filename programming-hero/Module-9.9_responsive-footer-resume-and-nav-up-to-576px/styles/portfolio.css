@@ -301,4 +301,13 @@ footer .footer-container {
   .skill-box .skill-card {
     max-width: 100%;
   }
+  .footer-container form input[type="text"],
+  .footer-container form textarea {
+    width: 100%;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+  }
 }
