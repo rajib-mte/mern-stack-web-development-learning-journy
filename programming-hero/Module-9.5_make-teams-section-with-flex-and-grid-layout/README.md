@@ -13,6 +13,8 @@ Ask Ai:
 
 ### Shortcut uses:
 
+- `.fact*4>img.fact-icon+h4.fact-number+h5.fact-name`
+
 ### Short summery:
 
 - responsive: skill and about section.
