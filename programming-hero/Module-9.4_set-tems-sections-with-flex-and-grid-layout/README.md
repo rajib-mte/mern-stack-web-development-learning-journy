@@ -2,11 +2,10 @@
 
 ## Notes
 
-- Break point
-- Media query
--
-
 Ask Ai:
+
+- read my code. and where to improve
+- tell me about responsive breakpoints
 
 ## Resource:
 

@@ -21,11 +21,6 @@
   border-radius: 8px;
 }
 
-main {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 /* dark-02 */
 .text-gray {
   color: #424242;
@@ -41,6 +36,7 @@ main {
 }
 
 /* header styles */
+
 /* navbar related styles */
 .brand {
   font-weight: 700;
