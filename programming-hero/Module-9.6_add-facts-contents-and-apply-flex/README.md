@@ -2,6 +2,7 @@
 
 ## Notes
 
+flex kaj kore immediate child er upor
 Ask Ai:
 
 - read my code. and where to improve
