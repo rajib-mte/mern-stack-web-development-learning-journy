@@ -5,8 +5,8 @@
 
 ### google
 
-- transform method
+-css transition: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition"> link </a>
 
 ### New tag
 
-- transform tag
+-
