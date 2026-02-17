@@ -12,7 +12,7 @@ var weight = 65; // valid
 var price = 38;
 var year = 2023;
 var money = 2005;
-
+money = 3000;
 var age;
 console.log(weight);
 console.log("22 Hello, Programming Hero!");
