@@ -1,58 +1,28 @@
-/************** Notes ****************
- * JavaScript Arithmetic Operators:
- * - Additoin (+)
- * - Subtractioin (-)
- * - Multiplication (*)
- * - Exponentiation (**)
- * - Division (/)
- * - Modulus or Remainder (%)
+/*************** Notes **********
+ * Is high-level and interpreted programming language.
+ * It is a programming language that is used to make web pages interactive.
+ * dynamically update content, control multimedia, animate images, and pretty much everything else.
+ * JavaScript is a single-threaded programming language.
+ * It is a multi-paradigm programming language.
  *
+ ***************** Naming convention ************
+ * camelCase
+ * snake_case
+ * kebab-case
+ * PascalCase
  *
+ * ******** + Operators **********
+ * - When + is used with numbers, it is used to add the numbers.
+ *  const a = 4 + 9; // 13
+ * - when + is used with numbers and strings, it is used to concatenate the strings.
+ *  const b = "Hello" + " " + "World"; // "Hello World"
+ *  const c = "40" + 2; // "402"
+ *  const d = 2 + "40"; // "240"
  *
- *
- *
- *
- *
+ * ************* JavaScript NaN and Infinity ************
+ * - const a = 4 - "hello"; // NaN
+ * - const a = 0 / 0; // NaN
+ * - const b = 1 / 0; // Infinity
+ * - const c = -1 / 0; // -Infinity
  *
  */
-
-/****** Additoin ***********/
-var price = 35;
-console.log(price);
-price += 10; // price = price + 10;
-console.log(price);
-
-/******* Subtractioin ****************/
-var fridge = 35000;
-console.log(fridge);
-fridge -= 10; // fridge = fridge - 10;
-console.log(fridge);
-
-/******** Multiplication ************/
-var orangePrice = 30;
-orangePrice *= 3; // orangePrice = orangePrice * 3;
-console.log(orangePrice);
-
-/********** Exponentiation ************/
-var lemonPrice = 50;
-console.log(lemonPrice);
-lemonPrice **= 2;
-console.log(lemonPrice);
-
-/******* Division ***************/
-var applePrice = 40;
-console.log(applePrice);
-applePrice /= 3; // applePrice = applePrice / 3;
-console.log(applePrice);
-
-/************ Conccatenation ************/
-var first = "Mobarok";
-var second = "Tobarok";
-
-var fullName = first + second;
-console.log(fullName);
-
-console.log("40" + 2);
-console.log(2 + "40");
-
-console.log("50" - 10);
